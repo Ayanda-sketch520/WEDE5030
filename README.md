@@ -1,4 +1,4 @@
 # WEDE5030
 Web development project
-##Project title
+## Project title
 Thusi's Bakery
