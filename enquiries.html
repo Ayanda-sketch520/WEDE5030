@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS_assets/mystyles.css">
+
+    <title>Thusi's Bakery - Enquiries</title>
+</head>
+
+<body>
+
+<header>
+
+    <h1>Thusi's Bakery</h1>
+
+    <!-- Navigation -->
+    <nav>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="enquiries.html">Enquiries</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- Enquiry Section -->
+<section class="container">
+
+    <div class="card">
+
+        <h2>Bakery Enquiry Form</h2>
+
+        <form>
+
+            <!-- Full Name -->
+            <label>Full Name</label><br>
+            <input type="text" name="fullname" required><br><br>
+
+            <!-- Email -->
+            <label>Email Address</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <!-- Phone -->
+            <label>Phone Number</label><br>
+            <input type="tel" name="phone" required><br><br>
+
+            <!-- Product -->
+            <label>Select Product</label><br>
+
+            <select name="product">
+
+                <option>Bread</option>
+                <option>Vetkoek (Magwinya)</option>
+                <option>Muffins</option>
+                <option>Birthday Cake</option>
+                <option>Wedding Cake</option>
+                <option>Custom Order</option>
+
+            </select><br><br>
+
+            <!-- Quantity -->
+            <label>Quantity</label><br>
+            <input type="number" name="quantity"><br><br>
+
+            <!-- Delivery -->
+            <label>Delivery Method</label><br>
+
+            <input type="radio" name="delivery"> Collection
+            <input type="radio" name="delivery"> Delivery
+
+            <br><br>
+
+            <!-- Date -->
+            <label>Order/Event Date</label><br>
+            <input type="date" name="date"><br><br>
+
+            <!-- Message -->
+            <label>Additional Information</label><br>
+
+            <textarea rows="5" cols="40"
+            placeholder="Enter your special requests here..."></textarea>
+
+            <br><br>
+
+            <!-- Submit -->
+            <button type="submit">Submit Enquiry</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>Thusi's Bakery &copy; 2026</p>
+</footer>
+
+</body>
+</html>
